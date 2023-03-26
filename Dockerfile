@@ -13,5 +13,5 @@ COPY . .
 EXPOSE 80
 
 # run caddy
-CMD ["caddy", "run", "--config". "Caddyfile", "--adapter", "caddyfile"]
+CMD ["caddy", "run", "--config", "Caddyfile", "--adapter", "caddyfile"]
 
