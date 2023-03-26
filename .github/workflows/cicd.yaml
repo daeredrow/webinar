@@ -26,6 +26,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/daeredrow/webinar:latest
+          tags: ghcr.io/${{github.repository}}::${{ github.sha }}
       
     
